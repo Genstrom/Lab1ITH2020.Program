@@ -33,7 +33,7 @@ namespace Lab1ITH2020.Program
                         {
 
                             coloredNumber = BigInteger.Parse(userInput.Substring(i, counter + 1));
-                            total = total + coloredNumber;
+                            total += coloredNumber;
                             Console.ForegroundColor = ConsoleColor.White; Console.Write(userInput.Substring(0, i));
                             Console.ForegroundColor = ConsoleColor.Red; Console.Write(userInput.Substring(i, counter + 1));
                             Console.ForegroundColor = ConsoleColor.White; Console.Write(userInput.Substring(y + 1));
